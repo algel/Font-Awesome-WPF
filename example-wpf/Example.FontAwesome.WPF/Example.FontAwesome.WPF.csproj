@@ -37,6 +37,10 @@
     <ApplicationIcon>flag.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FontAwesome.WPF, Version=4.7.0.37774, Culture=neutral, PublicKeyToken=0758b07a11a4f466, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\FontAwesome.WPF.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -95,12 +99,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="flag.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\WPF\FontAwesome.WPF\FontAwesome.WPF.NET40.csproj">
-      <Project>{7006ac9f-d218-4d7b-98eb-5d2d91f69c57}</Project>
-      <Name>FontAwesome.WPF</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

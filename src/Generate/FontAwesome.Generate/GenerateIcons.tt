@@ -47,6 +47,9 @@
 		WriteLine("///<summary>Set this value to show no icon.</summary>");
 		WriteLine("None = 0x0,");
 
+		WriteLine("///<summary>Set this value to show whitespace.</summary>");
+		WriteLine("None = 0x20,");
+
 
 		foreach(var item in interop.Items) {
 			WriteLine("///<summary>{0} (created: {1})</summary>", item.Name, item.Created);
